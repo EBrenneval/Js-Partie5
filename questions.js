@@ -9,7 +9,7 @@ var nombres = [0,1,2,3,4,5];
 }
 
 var RemplacementElement = function (langages) {
-   langages.splice(2,1,"Javascript");
+   langages.splice(2,1,"Javascript"); // autre méthode : langages[2] = "Javascript";
   return langages;
 }
 
